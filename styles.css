@@ -1,0 +1,53 @@
+/* Design Tokens & Theme Specification
+ * Theme: Warm Ivory, Muted Sage Green, Soft Gold
+ * Target: Memorial & Legacy Archive
+ * Rules: Light mode only, generous whitespace, serif headings, clean sans body
+ */
+
+:root {
+  /* Surfaces & Backgrounds */
+  --color-ivory-50:  #FAF8F5; /* Primary page background (Linen Ivory) */
+  --color-ivory-100: #F4EFEB; /* Secondary surface / Cards */
+  --color-ivory-200: #ECE5DE; /* Subdued container */
+  --color-ivory-border: #E8E1D5; /* Delicate boundary */
+  --color-ivory-border-light: #F0EAE1;
+
+  /* Muted Sage Greens */
+  --color-sage-50:  #F2F6F2;  /* Softest tint */
+  --color-sage-100: #E4EDE3;  /* Badges & tags */
+  --color-sage-200: #C9D7C8;  /* Sage line borders */
+  --color-sage-400: #889D86;  /* Botanical mid-tone */
+  --color-sage-600: #586B57;  /* Primary brand & actions */
+  --color-sage-700: #465545;  /* Hover / emphasis */
+  --color-sage-800: #333F32;  /* Deepest botanical */
+
+  /* Soft Antique Gold Accents */
+  --color-gold-50:  #FAF6ED;  /* Gentle glow background */
+  --color-gold-100: #F3EBDA;  /* Accent highlights */
+  --color-gold-200: #E8D9BB;  /* Gold borders & lines */
+  --color-gold-400: #C7A667;  /* Soft gold accent */
+  --color-gold-500: #B7934F;  /* Antique gold primary */
+  --color-gold-600: #9C7A36;  /* Warm gold text / links */
+
+  /* Typography Colors */
+  --color-text-heading: #2D332D; /* Warm charcoal-sage (soft, dignified) */
+  --color-text-body:    #4E544F; /* High legibility, gentle contrast */
+  --color-text-muted:   #7E857F; /* Dates, captions, metadata */
+
+  /* Typography Fonts */
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Spacing Scale (Generous Whitespace) */
+  --space-unit: 1rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 6rem;
+  --space-2xl: 8rem;
+
+  /* Shadows - Diffused, soft */
+  --shadow-subtle: 0 4px 20px -2px rgba(88, 107, 87, 0.05), 0 2px 6px -1px rgba(70, 60, 50, 0.03);
+  --shadow-card:   0 12px 32px -4px rgba(70, 85, 69, 0.07), 0 4px 12px -2px rgba(45, 51, 45, 0.03);
+}
